@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+header{
+    width: 70%;
+    height: 80px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+
+}
+.logo h1{
+    color: blueviolet;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+nav{
+    width: 50%;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+nav ul li a:hover{
+    color: blueviolet;
+}
+
+.banner{
+    width: 100%;
+    position: relative;
+}
+
+.banner img{
+    width: 100%;
+    opacity: 0.7;
+    filter: contrast(0.5);
+}
+.center_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.center_text h1{
+    text-align: center;
+    font-size: 80px;
+    color: rgb(168, 13, 155);
+}
+.center_text h3{
+    text-align: center;
+    font-size: 45px;
+}
+.about_me{
+    width: 100%;
+    height: 100px;
+}
+.about_me h2{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 28px;
+    color: #626262;
+    font-weight: 500;
+}
+
+.artical{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.artical p{
+    width: 65%;
+    text-align: justify;
+}
+.artical hr{
+    width: 65%;
+}
+.about_img{
+    width: 35%;
+
+}
+.about_img img{
+    width: 400px;
+    height: 400px;
+}
+.about_img h3{
+    text-align: center;
+    font-size: 35px;
+    color: blueviolet;
+}
+.education{
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+}
+.education h2{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 28px;
+    color: #626262;
+    font-weight: 500;
+}
+.exam_bgc{
+    background-color: aliceblue;
+}
+.exams{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.jsc{
+    width: 31%;
+}
+.ssc{
+    width: 31%;
+}
+.hsc{
+    width: 31%;
+}
+.jsc hr{
+    width: 100%;
+}
+.ssc hr{
+    width: 100%;
+}
+.hsc hr{
+    width: 100%;
+}
+.skills{
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+}
+.skills h2{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 28px;
+    color: #626262;
+    font-weight: 500;
+}
+footer{
+    width: 100%;
+    background-color: aliceblue;
+    text-align: center;
+}
+footer p{
+    color: #626262;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 600px){
+    header{
+        width: 100%;
+        height: 200px;
+        display: block;
+        margin: auto;
+    }
+    .logo h1{
+        text-align: center;
+    }
+    nav{
+        text-align: center;
+        margin-top: 20px;
+    }
+    nav ul{
+        display: inline-block;
+        margin-left: 200px;
+        
+    }
+    nav ul li a{
+    }
+    .center_text h1{
+        font-size: 30px;
+    }
+    .center_text h3{
+        font-size: 10px;
+    }
+    .about_me{
+        width: 100%;
+        height: 100px;
+    }
+    .about_me h2{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .artical{
+        width: 90%;
+        display: block;
+    }
+    .artical p{
+        width: 100%;
+    }
+    .artical hr{
+        width: 100%;
+    }
+    .about_img{
+        width: 100%;
+
+    }
+    .about_img img{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .about_img h3{
+        font-size: 25px;
+    }
+    .education{
+        height: 100px;
+        background-color: aliceblue;
+    }
+    .education h2{
+        font-size: 20px;
+    }
+    .exams{
+        width: 90%;
+        margin: auto;
+        display: block;
+    }
+    .jsc{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .ssc{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .hsc{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
